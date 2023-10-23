@@ -47,10 +47,10 @@ public class Calculator {
 
   public static void main(String[] args) {
     // Примеры использования
-    int intSumResult = Calculator.sum(5, 3);
-    double doubleDivideResult = Calculator.divide(10.0, 2.5);
-    int intSubtractResult = Calculator.subtract(10, 5);
-    double doubleMultiplyResult = Calculator.multiply(3.5, 2.0);
+    int intSumResult = Calculator.sum(10, 23);
+    double doubleDivideResult = Calculator.divide(21.7, 2.0);
+    int intSubtractResult = Calculator.subtract(43, 21);
+    double doubleMultiplyResult = Calculator.multiply(4.5, 2.0);
 
     System.out.println("Сумма: " + intSumResult);
     System.out.println("Результат деления: " + doubleDivideResult);
